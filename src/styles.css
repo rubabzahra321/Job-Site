@@ -1,0 +1,118 @@
+body {
+
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: justify;
+
+
+
+}
+
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+
+}
+
+.table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 13px;
+
+}
+
+.header_table th {
+    text-align: left;
+    padding: 5px;
+
+
+}
+
+.data_row td {
+    text-align: left;
+    background-color: #a8dadc;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.row td {
+    text-align: left;
+    background-color: #edede9;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#application {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 13px;
+
+}
+
+#foam label {
+    font-weight: 600;
+    color: white;
+    margin-top: 4px;
+
+}
+
+#foam input,
+select,
+textarea {
+    font-size: 16px;
+    padding: 8px 12px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #00ffff;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#foam div {
+    margin: 16px;
+}
+
+#foam input[type="checkbox"] {
+    width: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#button {
+    width: 20%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #00ffff;
+    border-radius: 6px;
+}
+#button:hover{
+    background-color: #a8dadc;
+
+}

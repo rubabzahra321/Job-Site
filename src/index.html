@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        practice website
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <h2>Welcome to Jobs And Internships portal</h2>
+    <h3>Current Jobs and Internships</h3>
+    <table class="table">
+
+        <tr class="header_table">
+            <th>Job Title</th>
+            <th>Location</th>
+            <th>Salary</th>
+            <th>Posted On</th>
+        </tr>
+        <tr class="data_row">
+            <td>FrontEnd Developer</td>
+            <td>Islamabad,Pakistan</td>
+            <td>Rs: 1000,00</td>
+            <td>Mar 3, 2025</td>
+
+        </tr>
+        <tr class="row">
+            <td>Full Stack Developer</td>
+            <td>Lahore,Pakistan</td>
+            <td>Rs: 120,000</td>
+            <td>July 19,2025</td>
+
+        </tr>
+        <tr class="data_row">
+            <td>Data Scientist</td>
+            <td>Lahore,Pakistan</td>
+            <td>Rs:150,000</td>
+            <td>June 20,2025</td>
+
+        </tr>
+        <tr class="row">
+            <td>Machine Learning Enginer</td>
+            <td>Remote</td>
+            <td>Rs:90,000</td>
+            <td>July 21,2025</td>
+
+        </tr>
+        <tr class="data_row">
+            <td>FrontEnd Developer</td>
+            <td>Islamabad,Pakistan</td>
+            <td>Rs: 1000,00</td>
+            <td>Mar 3, 2025</td>
+
+        </tr>
+        <tr class="row">
+            <td>Full Stack Developer</td>
+            <td>Lahore,Pakistan</td>
+            <td>Rs: 120,000</td>
+            <td>July 19,2025</td>
+
+        </tr>
+        <tr class="data_row">
+            <td>Data Scientist</td>
+            <td>Lahore,Pakistan</td>
+            <td>Rs:150,000</td>
+            <td>June 20,2025</td>
+
+        </tr>
+        <tr class="row">
+            <td>Machine Learning Enginer</td>
+            <td>Remote</td>
+            <td>Rs:90,000</td>
+            <td>July 21,2025</td>
+
+        </tr>
+    </table>
+    <!-- now we will create foams in the html -->
+    <div id="application">
+        <h2>Submit Your Application</h2>
+        <foam id="foam">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="john doe">
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+            </div>
+            <div>
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="03**-*******">
+            </div>
+            <div>
+                <label for="date">DOB</label><br>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+                <label for="position">Position</label><br>
+                <select id="position" name="position" required>
+                    <option value="">select option</option>
+                    <option value="1">Front End Developer</option>
+                    <option value="2">Full Stack Developer</option>
+                    <option value="3">Data Scientist</option>
+                    <option value="4">Machine Learning Enginer</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="files">CV</label><br>
+                <input type="file" id="files" name="files" accept=".pdf" required>
+            </div>
+            <div>
+                <label for="coverletter">Cover letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="3"
+                    placeholder="what makes you capable of this job?"></textarea>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="check" name="check">
+                    I agree to the terms and conditions
+                </label>
+            </div>
+            <div>
+                <button id="button" type="submit">Submit</button>
+            </div>
+
+        </foam>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
